@@ -143,12 +143,12 @@ header {
 			letter-spacing: .1rem;
 			text-transform: uppercase;
 			font-weight: 300;
-			color: $white;
+			color: $primary;
 			@include media-breakpoint-down(md) {
 				padding: .5rem 0rem!important;
 			}
 			&.active {
-				color: $primary;
+				color: $info;
 			}
 		}
 
