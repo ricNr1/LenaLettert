@@ -6759,7 +6759,8 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: 'myFont';
   src: url("fonts/cursiv.ttf"); }
 html {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
 
 body {
   background: #fff;

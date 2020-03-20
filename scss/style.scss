@@ -11,6 +11,8 @@ $font-heading: 'Abril Fatface', sans-serif;
 
 html {
 	overflow-x: hidden;
+	scroll-behavior: smooth;
+	
 }
 body {
 	background: $white;
