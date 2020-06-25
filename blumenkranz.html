@@ -32,36 +32,6 @@
     <header role="banner">
         <nav class="navbar navbar-expand-lg  bg-dark">
             <div class="container-fluid">
-                <!--
-    <a class="navbar-brand" href="index.html">
-        <img src="images\IMG_0191_white.PNG" alt="Lettering im Stall Logo im Header" title="Lettering im Stall"
-             style="max-height: 70px;">
-    </a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
-            aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-    <div class="collapse navbar-collapse" id="navbarsExample05">
-        <ul class="navbar-nav pl-md-5 ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Willkommen</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="letteringlernen.html">Lettering lernen</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link active" href="anfrage.html">Deine individuelle Anfrage</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="derstall.html">Der Stall</a>
-            </li>
-        </ul>
-
-
-    </div>-->
             </div>
         </nav>
     </header>
@@ -71,17 +41,18 @@
          style="background-image: url('images/BlickindenStall_1800p.JPG');">
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
-                <div class="col-lg-12 text-center col-sm-12 smooth-scroll" >
-                    <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Anfängerkurs buchen</h1>
-                    <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span><a href="#Anmeldung">Melde dich an</a></p>
+                <div class="col-lg-12 text-center col-sm-12 smooth-scroll">
+                    <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Blumenkranz bestellen</h1>
+                    <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span><a href="#Anmeldung">Bestellen</a></p>
                 </div>
             </div>
         </div>
     </div>
 
-
-    <div class="section" id="Anmeldung">
+    <div class="section portfolio-section" id="Anmeldung">
         <div class="container">
+
+
             <div class="row mb-5">
                 <div class="col-12 contact-form-contact-info">
                     <div class="row">
@@ -90,38 +61,20 @@
                                 <span class="ion-ios-location icon mr-3"></span>
 
                             <p>
-                                Ich freue mich schon darauf, mit Dir in einem der Workshops kreativ zu werden.
-                                Nach dem Abschicken des Formulars sende ich Dir alle wichtigen Informationen per Mail zu.
-                            </p>
-                            <p>
-                                Die Workshop Termine werden regelmäßig aktualisiert und ergänzt. Mach Dir also keine Sorge, falls gerade kein passender Workshop Termin für Dich dabei ist.
-                            </p>
-                            <p>
-                                Für ein individuelles Lettering oder individuelle Workshops kannst Du mich unter <a href="anfrage.html" target="_blank">Deine individuelle Anfrage</a> kontaktieren. Workshop-Gutscheine kannst Du im Shop erwerben.
-                            </p>
+                                Hier kannst du ganz einfach deinen personalisierten Blumenkranz bestellen, ich melde mich dann schnellstmöglich bei dir. Beispiele der Blumenkranz-Arten findest du <a href="#Beispiel">hier</a> unterhalb des Formulars.
                             </p>
                         </div>
-                        <!--<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <p class="d-flex">
-                        <span class="ion-ios-telephone icon mr-5"></span>
-                        <span>+1 242 4942 290</span>
-                    </p>
-                </div>
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <p class="d-flex">
-                        <span class="ion-android-mail icon mr-5"></span>
-                        <span>info@yourdomain.com</span>
-                    </p>
-                </div>-->
                     </div>
                 </div>
             </div>
 
+        </div>
 
+        <div class="container">
             <div class="row mt-5">
                 <div class="col-12 mb-5 order-2">
-                    <form name="registration-form" accept-charset="utf-8" action="https://formspree.io/letteringimstall@gmail.com" method="post">
-
+                    <form name="registration-form" accept-charset="utf-8" action="https://formspree.io/erich.balles@hotmail.de" method="post">
+                        <input type="hidden" name="_subject" value="Blumenkranz bestellt!" />
                         <div class="row">
                             <div class="col-md-6 form-group">
                                 <label for="name">Vorname</label>
@@ -143,19 +96,39 @@
                                 <input type="email" id="email" name="_replyto" placeholder="deineEmail@domain.de" class="form-control " required>
                             </div>
                             <div class="col-md-6 form-group">
-                                <label for="full-name">Kurs wählen</label>
-                                <select name="Gewaehlter-Kurs" required="" class="form-control " style="height:50px">
-                                    <option value="Select" selected="" disabled="">Kurs</option>
-                                    <option value="Anfaenger 05.05.2020">Anfänger 05.05.2020</option>
-                                    <option value="Anfaenger 12.05.2020">Anfänger 12.05.2020</option>
+                                <label for="full-name">Gutschein wählen</label>
+                                <select name="Gewaehlte-Art" required="" class="form-control " style="height:50px">
+                                    <option value="Select" selected="" disabled="">Blumenkranz Art</option>
+                                    <option value="Ring">Ring</option>
+                                    <option value="Stickrahmen">Stickrahmen</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="full-name">Farbe (nur bei Ring) </label>
+                                <select name="Personalisierung" required="" class="form-control " style="height:50px">
+                                    <option value="Select" selected="">Rahmen gewählt</option>
+                                    <option value="Schwarz">Schwarz</option>
+                                    <option value="Gold">Gold</option>
+                                </select>
+
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <label for="full-name">Größe (nur bei Stickrahmen) </label>
+                                <select name="Personalisierung" required="" class="form-control " style="height:50px">
+                                    <option value="Select" selected="">Ring gewählt</option>
+                                    <option value="groesse-1">Größe 1</option>
+                                    <option value="groesse-2">Größe 2</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12 form-group">
-                                <label for="message">Nachricht</label>
-                                <textarea name="Nachricht" id="message" class="form-control" required cols="30" rows="8"></textarea>
+                                <label for="message">Text</label>
+                                <textarea name="Nachricht" id="message" class="form-control" placeholder="Zum Beispiel: Familie Winter, die Winters, Mr & Mrs Winter, Welcome to the world little one, Schön, dass du da bist" required cols="30" rows="8"></textarea>
                             </div>
                         </div>
                         <div class="row">
@@ -165,25 +138,33 @@
                         </div>
                     </form>
                 </div>
+
+
             </div>
 
-            <div class="row mb-5">
-                <div class="col-12 ">
-                    <div class="row">
-                        <div class="col-lg-12" data-aos="fade-up" data-aos-delay="">
-                            <p class="d-flex">
-                                <span>
-                                    Solltest Du am Workshop nicht teilnehmen können, kannst Du deine Workshop-Teilnahme an eine weitere Person übertragen. Lass mir hierzu bitte eine Mail zukommen, wer Dich beim Workshop vertreten wird. Findest Du keine Vertretung oder wird ein Workshop von meiner Seite aus abgesagt, erhältst Du von mir eine Gutschrift, die Du für Workshops oder im Shop einlösen kannst (außer Papeterie aus der Perlenkinderwelt). Bei einer kurzfristigen Absage (2 Tage) ohne Vertretung beträgt die Stornierungsgebühr 50 % des Kurspreises.
-                                </span>
-                            </p>
-                        </div>
+            
 
-                    </div>
+
+        </div>
+        <div class="container" id="Beispiel">
+            <div class="row mb-5 no-gutters">
+                <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="100">
+                    <a href="images/BeispielRing.jpg" class="mb-3 d-block" data-fancybox="gal" style="border: 10px solid #fff;"><img src="images/BeispielRing.jpg" alt="Image" class="img-fluid"></a>
                 </div>
+
+                <div class="col-sm-6 col-md-6 col-lg-6" data-aos="fade" data-aos-delay="200">
+                    <a href="images/BeispielKranz.jpg" class="mb-3 d-block" data-fancybox="gal" style="border: 10px solid #fff;"><img src="images/BeispielKranz.jpg" alt="Image" class="img-fluid"></a>
+
+                </div>
+
             </div>
 
         </div>
     </div>
+
+
+
+
 
 
     <footer class="site-footer  bg-secondary py-5" role="contentinfo">

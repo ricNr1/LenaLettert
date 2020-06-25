@@ -31,37 +31,7 @@
 
     <header role="banner">
         <nav class="navbar navbar-expand-lg  bg-dark">
-            <div class="container-fluid">
-                <!--
-    <a class="navbar-brand" href="index.html">
-        <img src="images\IMG_0191_white.PNG" alt="Lettering im Stall Logo im Header" title="Lettering im Stall"
-             style="max-height: 70px;">
-    </a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
-            aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-    <div class="collapse navbar-collapse" id="navbarsExample05">
-        <ul class="navbar-nav pl-md-5 ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Willkommen</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="letteringlernen.html">Lettering lernen</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link active" href="anfrage.html">Deine individuelle Anfrage</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="derstall.html">Der Stall</a>
-            </li>
-        </ul>
-
-
-    </div>-->
+            <div class="container-fluid">               
             </div>
         </nav>
     </header>
@@ -72,8 +42,8 @@
         <div class="container">
             <div class="row slider-text align-items-center justify-content-center">
                 <div class="col-lg-12 text-center col-sm-12 smooth-scroll" >
-                    <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Anfängerkurs buchen</h1>
-                    <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span><a href="#Anmeldung">Melde dich an</a></p>
+                    <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Gutschein bestellen</h1>
+                    <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span><a href="#Anmeldung">Bestellen</a></p>
                 </div>
             </div>
         </div>
@@ -90,29 +60,9 @@
                                 <span class="ion-ios-location icon mr-3"></span>
 
                             <p>
-                                Ich freue mich schon darauf, mit Dir in einem der Workshops kreativ zu werden.
-                                Nach dem Abschicken des Formulars sende ich Dir alle wichtigen Informationen per Mail zu.
+                                Hier kannst du ganz einfach deinen Gutschein bestellen, ich melde mich dann schnellstmöglich bei dir.
                             </p>
-                            <p>
-                                Die Workshop Termine werden regelmäßig aktualisiert und ergänzt. Mach Dir also keine Sorge, falls gerade kein passender Workshop Termin für Dich dabei ist.
-                            </p>
-                            <p>
-                                Für ein individuelles Lettering oder individuelle Workshops kannst Du mich unter <a href="anfrage.html" target="_blank">Deine individuelle Anfrage</a> kontaktieren. Workshop-Gutscheine kannst Du im Shop erwerben.
-                            </p>
-                            </p>
-                        </div>
-                        <!--<div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                    <p class="d-flex">
-                        <span class="ion-ios-telephone icon mr-5"></span>
-                        <span>+1 242 4942 290</span>
-                    </p>
-                </div>
-                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                    <p class="d-flex">
-                        <span class="ion-android-mail icon mr-5"></span>
-                        <span>info@yourdomain.com</span>
-                    </p>
-                </div>-->
+                        </div>                       
                     </div>
                 </div>
             </div>
@@ -120,8 +70,8 @@
 
             <div class="row mt-5">
                 <div class="col-12 mb-5 order-2">
-                    <form name="registration-form" accept-charset="utf-8" action="https://formspree.io/letteringimstall@gmail.com" method="post">
-
+                    <form name="registration-form" accept-charset="utf-8" action="https://formspree.io/erich.balles@hotmail.de" method="post">
+                        <input type="hidden" name="_subject" value="Gutschein bestellt!" />
                         <div class="row">
                             <div class="col-md-6 form-group">
                                 <label for="name">Vorname</label>
@@ -143,11 +93,35 @@
                                 <input type="email" id="email" name="_replyto" placeholder="deineEmail@domain.de" class="form-control " required>
                             </div>
                             <div class="col-md-6 form-group">
-                                <label for="full-name">Kurs wählen</label>
-                                <select name="Gewaehlter-Kurs" required="" class="form-control " style="height:50px">
-                                    <option value="Select" selected="" disabled="">Kurs</option>
-                                    <option value="Anfaenger 05.05.2020">Anfänger 05.05.2020</option>
-                                    <option value="Anfaenger 12.05.2020">Anfänger 12.05.2020</option>
+                                <label for="full-name">Gutschein wählen</label>
+                                <select name="Gewaehlter-Gutschein" required="" class="form-control " style="height:50px">
+                                    <option value="Select" selected="" disabled="">Gutscheinwert</option>
+                                    <option value="10€">10€</option>
+                                    <option value="20€">20€</option>
+                                    <option value="30€">30€</option>
+                                    <option value="40€">40€</option>
+                                    <option value="50€">50€</option>
+                                    <option value="55€">Anfänger Kurs 55€</option>
+                                    <option value="60€">Fortgeschrittenen Kurs 60€</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <label for="full-name">Personalisierung, z. B. Für Marie, Zum Geburtstag, Für Dich, Happy Birthday -> Aufpreis 2 €</label>
+                                <select name="Personalisierung" required="" class="form-control " style="height:50px">
+                                    <option value="Ohne">Ohne</option>
+                                    <option value="Personalisierung dazubuchen 2€">Personalisierung dazubuchen</option>
+                                </select>
+
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <label for="full-name">Versand per Post -> Aufpreis 1 €</label>
+                                <select name="Postversand" required="" class="form-control " style="height:50px">
+                                    <option value="Ohne">Ohne</option>
+                                    <option value="Postversand dazubuchen 1€">Postversand dazubuchen</option>
+
                                 </select>
                             </div>
                         </div>
@@ -165,22 +139,12 @@
                         </div>
                     </form>
                 </div>
+
+
             </div>
 
-            <div class="row mb-5">
-                <div class="col-12 ">
-                    <div class="row">
-                        <div class="col-lg-12" data-aos="fade-up" data-aos-delay="">
-                            <p class="d-flex">
-                                <span>
-                                    Solltest Du am Workshop nicht teilnehmen können, kannst Du deine Workshop-Teilnahme an eine weitere Person übertragen. Lass mir hierzu bitte eine Mail zukommen, wer Dich beim Workshop vertreten wird. Findest Du keine Vertretung oder wird ein Workshop von meiner Seite aus abgesagt, erhältst Du von mir eine Gutschrift, die Du für Workshops oder im Shop einlösen kannst (außer Papeterie aus der Perlenkinderwelt). Bei einer kurzfristigen Absage (2 Tage) ohne Vertretung beträgt die Stornierungsgebühr 50 % des Kurspreises.
-                                </span>
-                            </p>
-                        </div>
+            
 
-                    </div>
-                </div>
-            </div>
 
         </div>
     </div>
