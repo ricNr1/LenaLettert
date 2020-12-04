@@ -96,31 +96,33 @@
                                 <input type="email" id="email" name="_replyto" placeholder="deineEmail@domain.de" class="form-control " required>
                             </div>
                             <div class="col-md-6 form-group">
-                                <label for="full-name">Gutschein wählen</label>
+                                <label for="full-name">Blumenkranz Art</label>
                                 <select name="Gewaehlte-Art" required="" class="form-control " style="height:50px">
                                     <option value="Select" selected="" disabled="">Blumenkranz Art</option>
-                                    <option value="Ring">Ring</option>
+                                    <option value="Ring">Ring - Temporär nicht verfügbar</option>
                                     <option value="Stickrahmen">Stickrahmen</option>
 
                                 </select>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12 form-group">
-                                <label for="full-name">Farbe (nur bei Ring) </label>
-                                <select name="Personalisierung" required="" class="form-control " style="height:50px">
-                                    <option value="Select" selected="">Rahmen gewählt</option>
-                                    <option value="Schwarz">Schwarz</option>
-                                    <option value="Gold">Gold</option>
-                                </select>
+                            <!--<div class="col-md-12 form-group">
+            <label for="full-name">Farbe (nur bei Ring) </label>
+            <select name="Personalisierung" required="" class="form-control " style="height:50px">
+                <option value="Select" selected="">Rahmen gewählt</option>
+                <option value="Schwarz">Schwarz</option>
+                <option value="Gold">Gold</option>
+            </select>
 
-                            </div>
+        </div>-->
                             <div class="col-md-12 form-group">
-                                <label for="full-name">Größe (nur bei Stickrahmen) </label>
+                                <label for="full-name">Größe Stickrahmen<!--(nur bei Stickrahmen)--> </label>
                                 <select name="Personalisierung" required="" class="form-control " style="height:50px">
-                                    <option value="Select" selected="">Ring gewählt</option>
-                                    <option value="groesse-1">Größe 1</option>
-                                    <option value="groesse-2">Größe 2</option>
+                                    <!--<option value="Select" selected="">Ring gewählt</option>-->
+                                    <option value="Ohne Trockenblumen 25cm 17€">Ohne Trockenblumen 25cm - 17€</option>
+                                    <option value="Mit Trockenblumen 25cm 29€">Mit Trockenblumen 25cm - 29€</option>
+                                    <option value="Ohne Trockenblumen 44cm 25€">Ohne Trockenblumen 44cm - 25€</option>
+                                    <option value="Mit Trockenblumen 44cm 37€">Mit Trockenblumen 44cm - 37€</option>
                                 </select>
                             </div>
                         </div>
@@ -128,11 +130,22 @@
                         <div class="row">
                             <div class="col-md-12 form-group">
                                 <label for="message">Text</label>
-                                <textarea name="Nachricht" id="message" class="form-control" placeholder="Zum Beispiel: Familie Winter, die Winters, Mr & Mrs Winter, Welcome to the world little one, Schön, dass du da bist" required cols="30" rows="8"></textarea>
+                                <textarea name="Nachricht" id="message" class="form-control" placeholder="Dein Wunschtext" required cols="30" rows="8"></textarea>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 form-group">
+                            <div class="col-md-3 form-group">
+                                <select name="Datenschutz" required="" class="form-control " style="height:50px" required>
+                                    <option value="Select" selected="" disabled="">Datenschutz</option>
+                                    <option value="Einverstanden">Einverstanden</option>
+                                </select>
+                            </div>
+                            <div class="col-md-9 form-group">
+                                <label for="message">Du erklärst dich damit einverstanden, dass Deine Daten zur Bearbeitung Deines Anliegens verarbeitet werden. Weitere Informationen und Widerrufshinweise findest Du in der <a href="datenschutz.html">Datenschutzerklärung</a></label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
                                 <input type="submit" value="Abschicken" class="btn btn-outline-black px-3 py-3">
                             </div>
                         </div>
@@ -172,7 +185,7 @@
             <div class="row mb-5">
                 <div class="col-md-4 mb-5">
                     <h3 class="mb-4">Lettering im Stall</h3>
-                    <p>Lena Staudt</p>
+                    <p>Lena Bender</p>
                     <p>Im Stall</p>
                     <p>Kitzlesweg 15</p>
                     <p>97980 Markelsheim</p>
@@ -191,7 +204,7 @@
                 <div class="col-md-3 mb-5">
                     <ul class="list-unstyled footer-link d-flex footer-social">
                         <li><a href="https://www.facebook.com/lenalettert/" class="p-2"><span class="fa fa-facebook"></span></a></li>
-                        <li><a href="https://www.instagram.com/lena_lettert/" class="p-2"><span class="fa fa-instagram"></span></a></li>
+                        <li><a href="https://www.instagram.com/lettering_im_stall/" class="p-2"><span class="fa fa-instagram"></span></a></li>
                     </ul>
                 </div>
 
