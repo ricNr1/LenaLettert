@@ -1,12 +1,18 @@
 $font-heading: 'Abril Fatface', sans-serif;
+$font-heading-new: 'Rozha One', sans-serif;
+
+
 @import "bootstrap";
 @import "variables";
 @import "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
 
 @font-face {
 	font-family: 'myFont';
 	src: url("fonts/cursiv.ttf") ;
 }
+
+
 
 
 html {

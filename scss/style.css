@@ -4,7 +4,6 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");
 @font-face {
   font-family: 'myFont';
   src: url("fonts/cursiv.ttf"); }
@@ -6759,6 +6758,9 @@ a.text-dark:hover, a.text-dark:focus {
 @font-face {
   font-family: 'myFont';
   src: url("fonts/cursiv.ttf"); }
+@font-face {
+  font-family: 'RozhaOne';
+  src: url("fonts/RozhaOne-Regular.ttf"); }
 html {
   overflow-x: hidden;
   scroll-behavior: smooth; }
@@ -6780,7 +6782,7 @@ a {
 h1, h2, h3, h4, h5 {
   color: #000;
   line-height: 1.5;
-  font-family: "Abril Fatface", sans-serif;
+  font-family: "RozhaOne", sans-serif;
   font-weight: 900; }
 
 .btn, .form-control {
