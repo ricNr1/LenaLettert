@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images"
+    "\\css",
+    "\\fonts",
+    "\\scss"
   ],
-  "SelectedNode": "\\datenschutz.html",
+  "SelectedNode": "\\css\\style.css",
   "PreviewInSolutionExplorer": false
 }
