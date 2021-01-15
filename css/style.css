@@ -7920,8 +7920,8 @@ figure figcaption {
     width: 90%;
     margin-top: 20px;
     transition: .3s all ease;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
     transform: translate(-50%, -50%); }
     .work-thumb .work-text h2 {
       color: #fff;
@@ -7935,8 +7935,8 @@ figure figcaption {
     background: rgba(0, 0, 0, 0.5);
     position: absolute;
     transition: .3s all ease;
-    opacity: 0;
-    visibility: hidden;
+    opacity: 1;
+    visibility: visible;
     top: 10px;
     left: 10px;
     right: 10px;
