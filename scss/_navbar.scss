@@ -14,6 +14,8 @@
 //
 // Provide a static navbar from which we expand to create full-width, fixed, and
 // other navbar variations.
+@import "variables";
+@import "mixins";
 
 .navbar {
   position: relative;
@@ -99,7 +101,7 @@
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
-    /*background: rgba(0, 0, 0, 0.8);*/
+    /*background: rgba(0, 0, 0, 0.8) !important;*/
     // For always expanded or extra full navbars, ensure content aligns itself
     // properly vertically. Can be easily overridden with flex utilities.
     align-items: center;

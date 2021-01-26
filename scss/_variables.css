@@ -1,24 +1,28 @@
 /*
-Error: Undefined variable: "$gray-600".
-        on line 20 of D:\U Platte\privat\Github Repository\LenaLettert\scss\_navbar.scss
+Error: Undefined mixin '_assert-ascending'.
+        on line 179 of D:\U Platte\privat\Github Repository\LenaLettert\scss\_variables.scss, in `_assert-ascending'
+        from line 179 of D:\U Platte\privat\Github Repository\LenaLettert\scss\_variables.scss
 
-15: // Provide a static navbar from which we expand to create full-width, fixed, and
-16: // other navbar variations.
-17: $spacer: 1rem !default;
-18: $nav-link-padding-y: .5rem !default;
-19: $nav-link-padding-x: 1rem !default;
-20: $nav-link-disabled-color: $gray-600 !default;
-21: 
-22: $nav-tabs-border-color: $gray-300 !default;
-23: $nav-tabs-border-width: $border-width !default;
-24: $nav-tabs-border-radius: $border-radius !default;
-25: $nav-tabs-link-hover-border-color: $gray-200 $gray-200 $nav-tabs-border-color !default;
+174:   md: 768px,
+175:   lg: 992px,
+176:   xl: 1200px
+177: ) !default;
+178: 
+179: @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+180: @include _assert-starts-at-zero($grid-breakpoints);
+181: 
+182: 
+183: // Grid containers
+184: //
 
 Backtrace:
-D:\U Platte\privat\Github Repository\LenaLettert\scss\_navbar.scss:20
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
+D:\U Platte\privat\Github Repository\LenaLettert\scss\_variables.scss:179:in `_assert-ascending'
+D:\U Platte\privat\Github Repository\LenaLettert\scss\_variables.scss:179
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
@@ -51,4 +55,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray-600\".\A         on line 20 of D:\U Platte\privat\Github Repository\LenaLettert\scss\_navbar.scss\A \A 15: // Provide a static navbar from which we expand to create full-width, fixed, and\A 16: // other navbar variations.\A 17: $spacer: 1rem !default;\A 18: $nav-link-padding-y: .5rem !default;\A 19: $nav-link-padding-x: 1rem !default;\A 20: $nav-link-disabled-color: $gray-600 !default;\A 21: \A 22: $nav-tabs-border-color: $gray-300 !default;\A 23: $nav-tabs-border-width: $border-width !default;\A 24: $nav-tabs-border-radius: $border-radius !default;\A 25: $nav-tabs-link-hover-border-color: $gray-200 $gray-200 $nav-tabs-border-color !default;"; }
+  content: "Error: Undefined mixin '_assert-ascending'.\A         on line 179 of D:\U Platte\privat\Github Repository\LenaLettert\scss\_variables.scss, in `_assert-ascending'\A         from line 179 of D:\U Platte\privat\Github Repository\LenaLettert\scss\_variables.scss\A \A 174:   md: 768px,\A 175:   lg: 992px,\A 176:   xl: 1200px\A 177: ) !default;\A 178: \A 179: @include _assert-ascending($grid-breakpoints, \"$grid-breakpoints\");\A 180: @include _assert-starts-at-zero($grid-breakpoints);\A 181: \A 182: \A 183: // Grid containers\A 184: //"; }
