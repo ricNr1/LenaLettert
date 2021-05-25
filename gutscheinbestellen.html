@@ -72,7 +72,7 @@
             <div class="row mt-5">
                 <div class="col-12 mb-5 order-2">
                     <form name="registration-form" accept-charset="utf-8" action="https://formspree.io/f/xpzoodrd" method="post">
-                        <input type="hidden" name="_subject" value="Gutschein bestellt!" />
+                        <input type="hidden" name="_subject" value="Dein bestellter Gutschein" />
                         <div class="row">
                             <div class="col-md-6 form-group">
                                 <label for="name">Vorname</label>
@@ -97,6 +97,7 @@
                                 <label for="full-name">Gutschein wählen</label>
                                 <select name="Gewaehlter-Gutschein" required="" class="form-control " style="height:50px">
                                     <option value="Select" selected="" disabled="">Gutscheinwert</option>
+                                    <option value="BeliebigerWert">Beliebiger Wert (Bitte im Nachrichtenfeld vermerken)</option>     
                                     <option value="10€">10€</option>
                                     <option value="20€">20€</option>
                                     <option value="30€">30€</option>
@@ -110,7 +111,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 form-group">
-                                <label for="full-name">Personalisierung, z. B. Für Marie, Zum Geburtstag, Für Dich, Happy Birthday -> Aufpreis 2 €</label>
+                                <label for="full-name">Personalisierung mit Namen und Anlass-bezogen (z. B. Für Marie zum Geburtstag) sowie einer hübschen Aufbereitung im Umschlag -> + 3 €</label>
                                 <select name="Personalisierung" required="" class="form-control " style="height:50px">
                                     <option value="Ohne">Ohne</option>
                                     <option value="Personalisierung dazubuchen 2€">Personalisierung dazubuchen</option>
@@ -118,7 +119,7 @@
 
                             </div>
                             <div class="col-md-12 form-group">
-                                <label for="full-name">Versand per Post -> Aufpreis 1 €</label>
+                                <label for="full-name">Versand per Post -> + 2 €</label>
                                 <select name="Postversand" required="" class="form-control " style="height:50px">
                                     <option value="Ohne">Ohne</option>
                                     <option value="Postversand dazubuchen 1€">Postversand dazubuchen</option>
