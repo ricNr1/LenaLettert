@@ -149,13 +149,27 @@
                                 </select>
                             </div>
                         </div>
-
                         <div class="row">
                             <div class="col-md-12 form-group">
                                 <label for="message">Nachricht</label>
-                                <textarea name="Nachricht" id="message" class="form-control" required cols="30" rows="8"></textarea>
+                                <textarea name="Nachricht" id="message" class="form-control" placeholder="Hier kannst du eine Nachricht für mich hinterlassen" cols="30" rows="8"></textarea>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <div class="col-md-6 form-group">
+                                <select name="Coronabedingungen" required class="form-control " style="height:50px" required>
+                                    <option value="" selected="" disabled="">Coronabedingungen</option>
+                                    <option value="in den letzten 24h negativ getestet worden">in den letzten 24h negativ getestet worden</option>
+                                    <option value="seit mindestens 14 Tagen vollständig geimpft">seit mindestens 14 Tagen vollständig geimpft</option>
+                                    <option value="genesen">genesen</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label for="message">Zum Zeitpunkt des Workshops erfüllst du nachweislich mindestens eine dieser Bedingungen</a></label>
+                            </div>
+                        </div>
+
                         <div class="row">
                             <div class="col-md-3 form-group">
                                 <select name="Datenschutz" required class="form-control " style="height:50px" required>
@@ -167,6 +181,7 @@
                                 <label for="message">Du erklärst dich damit einverstanden, dass Deine Daten zur Bearbeitung Deines Anliegens verarbeitet werden. Weitere Informationen und Widerrufshinweise findest Du in der <a href="datenschutz.html">Datenschutzerklärung</a></label>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-md-12 form-group">
                                 <input type="submit" value="Abschicken" class="btn btn-outline-black px-3 py-3">
@@ -174,8 +189,6 @@
                         </div>
                     </form>
                 </div>
-
-
             </div>
 
             <div class="row mb-5">
