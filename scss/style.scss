@@ -9,7 +9,20 @@ $font-heading-new: 'Rozha One', sans-serif;
 
 @font-face {
 	font-family: 'myFont';
-	src: url("fonts/cursiv.ttf") ;
+	src: url("fonts/RozhaOne-Regular.ttf");
+}
+
+@font-face {
+	font-family: 'Abril Fatface';
+	src: url("../fonts/AbrilFatface-Regular.ttf");
+}
+@font-face {
+	font-family: 'Rozha One';
+	src: url("../fonts/RozhaOne-Regular.ttf");
+}
+@font-face {
+	font-family: 'Varela Round';
+	src: url("../fonts/VarelaRound-Regular.ttf");
 }
 
 
