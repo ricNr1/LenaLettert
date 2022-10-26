@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\fonts",
+    "\\scss"
   ],
-  "SelectedNode": "\\kursbuchen.html",
+  "SelectedNode": "\\fonts\\VarelaRound-Regular.ttf",
   "PreviewInSolutionExplorer": false
 }
