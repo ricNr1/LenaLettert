@@ -6761,7 +6761,7 @@ a.text-dark:hover, a.text-dark:focus {
   src: url("fonts/cursiv.ttf"); }
 @font-face {
   font-family: 'myFont';
-  src: url("fonts/RozhaOne-Regular.ttf"); }
+  src: url("../fonts/VarelaRound-Regular.ttf"); }
 @font-face {
   font-family: 'Abril Fatface';
   src: url("../fonts/AbrilFatface-Regular.ttf"); }
