@@ -5,11 +5,23 @@ $font-heading-new: 'Rozha One', sans-serif;
 @import "bootstrap";
 @import "variables";
 @import "mixins";
-@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
 
 @font-face {
 	font-family: 'myFont';
-	src: url("fonts/cursiv.ttf") ;
+	src: url("../fonts/VarelaRound-Regular.ttf");
+}
+
+@font-face {
+	font-family: 'Abril Fatface';
+	src: url("../fonts/AbrilFatface-Regular.ttf");
+}
+@font-face {
+	font-family: 'Rozha One';
+	src: url("../fonts/RozhaOne-Regular.ttf");
+}
+@font-face {
+	font-family: 'Varela Round';
+	src: url("../fonts/VarelaRound-Regular.ttf");
 }
 
 
